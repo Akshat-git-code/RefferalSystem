@@ -38,7 +38,7 @@
                         <br>
                     @endif
 
-                    <h6>You're Refferal Link : </h6>
+                    <h6>{{ $name}}'s Refferal Link : </h6>
                     @php
                     if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
                         $url = "https://";
